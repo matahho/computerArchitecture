@@ -1,0 +1,22 @@
+module TOP(clk , rst);
+    input clk , rst ;
+    
+    wire PCSrc , memWrite , AddSrc , AluSrc , Regwrite;
+    wire [1:0] ResultSrc;
+    wire [2:0]AluControl , immSrc;
+    
+    
+    wire z;
+
+    output wire [6:0] opcod;
+    wire[2:0]func3;
+    wire[6:0]func7;
+    
+
+    Datapath dp (clk,rst,PCSrc,ResultSrc,memWrite,AluControl,AddSrc,AluSrc, immSrc,Regwrite,opcod , func3,func7 ,z );
+    controller cont(opcod,func3,func7 ,z,PCSrc,ResultSrc ,memWrite ,AluControl ,AddSrc, AluSrc ,immSrc , Regwrite );
+    
+    
+    
+
+endmodule

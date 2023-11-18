@@ -1,0 +1,115 @@
+module controller (input reg[6:0]opcod,input[2:0]func3, input[6:0]func7 ,input z,output logic PCSrc,output logic [1:0]ResultSrc , output logic memWrite , output logic [2:0] AluControl ,output logic AddSrc, output logic AluSrc , output logic [2:0]immSrc ,output logic Regwrite );
+
+	
+	
+	always@(opcod,func3,func7,z) begin
+
+		{PCSrc , ResultSrc ,memWrite ,AluControl , AddSrc ,AluSrc ,immSrc ,Regwrite} = 13'b0;
+
+		if(opcod == 7'b0110011) begin
+			case({func3,func7})
+				10'b0000000000:begin PCSrc =1'b0;ResultSrc=2'b00;AluControl=3'b000;AluSrc=1'b0;Regwrite=1'b1; end
+				10'b0000100000:begin PCSrc =1'b0;ResultSrc=2'b00;AluControl=3'b001;AluSrc=1'b0;Regwrite=1'b1; end
+                10'b1110000000:begin PCSrc =1'b0;ResultSrc=2'b00;AluControl=3'b010;AluSrc=1'b0;Regwrite=1'b1; end
+				10'b1100000000:begin PCSrc =1'b0;ResultSrc=2'b00;AluControl=3'b011;AluSrc=1'b0;Regwrite=1'b1; end
+                10'b0100000000:begin PCSrc =1'b0;ResultSrc=2'b00;AluControl=3'b100;AluSrc=1'b0;Regwrite=1'b1; end
+				default:{PCSrc , ResultSrc ,memWrite ,AluControl ,AluSrc ,immSrc ,Regwrite} = 12'b0;	
+			endcase
+		end
+		if (opcod == 7'b0000011) begin
+			case({func3})
+				3'b010 : begin PCSrc =1'b0;ResultSrc=2'b01;AluControl=3'b000;AluSrc=1'b1;immSrc=3'b000;Regwrite=1'b1; end
+			endcase
+		end
+		if (opcod == 7'b0010011) begin
+			case({func3})
+				3'b000 : begin PCSrc =1'b0;ResultSrc=2'b00;AluControl=3'b000;AluSrc=1'b1;immSrc=3'b000;Regwrite=1'b1; end
+				3'b100 : begin PCSrc =1'b0;ResultSrc=2'b00;AluControl=3'b101;AluSrc=1'b1;immSrc=3'b000;Regwrite=1'b1; end
+				3'b110 : begin PCSrc =1'b0;ResultSrc=2'b00;AluControl=3'b011;AluSrc=1'b1;immSrc=3'b000;Regwrite=1'b1; end
+				3'b010 : begin PCSrc =1'b0;ResultSrc=2'b00;AluControl=3'b100;AluSrc=1'b1;immSrc=3'b000;Regwrite=1'b1; end
+				//JALR instruction TODO 
+
+
+			endcase
+		end
+
+		if (opcod == 7'b1100111) begin
+			case({func3})
+				3'b000 : begin PCSrc =1'b1;ResultSrc=2'b11;memWrite=1'b1;AluControl=3'b000;AddSrc=1'b0;AluSrc=1'b1;immSrc=3'b000;Regwrite=1'b1; end
+			endcase
+		end
+
+
+		if (opcod == 7'b0100011) begin
+			case({func3})
+				3'b010 : begin PCSrc =1'b0;ResultSrc=2'b11;memWrite=1'b0;AluControl=3'b000;AluSrc=1'b1;immSrc=3'b001;Regwrite=1'b0; end
+			endcase
+		end
+		
+		if (opcod == 7'b1101111) begin
+			PCSrc=1'b1 ; ResultSrc = 2'b11 ;AddSrc=1'b1;immSrc=3'b100;Regwrite=1'b1;
+			
+
+		end
+
+		if (opcod == 7'b1100011) begin
+			case({func3})
+				3'b000 : begin 
+				PCSrc = z ? 1'b1:1'b0;
+				AddSrc = 1'b0;
+				ResultSrc=2'b00;
+				memWrite=1'b0;
+				AluControl=3'b001;
+				AluSrc=1'b0;
+				immSrc=3'b010;
+				Regwrite=1'b0; end
+
+
+				3'b001 : begin 
+				PCSrc = z ? 1'b0:1'b1;
+				AddSrc = 1'b0;
+				ResultSrc=2'b00;
+				memWrite=1'b0;
+				AluControl=3'b001;
+				AluSrc=1'b0;
+				immSrc=3'b010;
+				Regwrite=1'b0;
+				end
+				
+
+
+				3'b100 : begin 
+				PCSrc = z ? 1'b1:1'b0;
+				AddSrc = 1'b0;
+				ResultSrc=2'b00;
+				memWrite=1'b0;
+				AluControl=3'b100;
+				AluSrc=1'b0;
+				immSrc=3'b010;
+				Regwrite=1'b0;
+				end
+
+
+
+				3'b101 : begin 
+				PCSrc = z ? 1'b0:1'b1;
+				AddSrc = 1'b0;
+				ResultSrc=2'b00;
+				memWrite=1'b0;
+				AluControl=3'b100;
+				AluSrc=1'b0;
+				immSrc=3'b010;
+				Regwrite=1'b0;
+				end
+
+			endcase
+		end
+
+
+		if (opcod == 7'b0110111) begin
+			PCSrc =1'b0;ResultSrc=2'b10;immSrc=3'b011;Regwrite=1'b1;
+
+		end
+
+	end
+endmodule

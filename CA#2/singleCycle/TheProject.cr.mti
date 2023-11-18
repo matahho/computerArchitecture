@@ -1,0 +1,99 @@
+C:/Users/Maryam/OneDrive/Desktop/singleCycle/ALU.sv {1 {vlog -work work -vopt -sv C:/Users/Maryam/OneDrive/Desktop/singleCycle/ALU.sv
+Model Technology ModelSim SE vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} C:/Users/Maryam/OneDrive/Desktop/singleCycle/TOP.sv {1 {vlog -work work -vopt -sv C:/Users/Maryam/OneDrive/Desktop/singleCycle/TOP.sv
+Model Technology ModelSim SE vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module TOP
+
+Top level modules:
+	TOP
+
+} {} {}} C:/Users/Maryam/OneDrive/Desktop/singleCycle/controller.sv {1 {vlog -work work -vopt -sv C:/Users/Maryam/OneDrive/Desktop/singleCycle/controller.sv
+Model Technology ModelSim SE vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module controller
+
+Top level modules:
+	controller
+
+} {} {}} C:/Users/Maryam/OneDrive/Desktop/singleCycle/ImmExt.sv {1 {vlog -work work -vopt -sv C:/Users/Maryam/OneDrive/Desktop/singleCycle/ImmExt.sv
+Model Technology ModelSim SE vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module ImmExtend
+
+Top level modules:
+	ImmExtend
+
+} {} {}} C:/Users/Maryam/OneDrive/Desktop/singleCycle/tbMEM.sv {1 {vlog -work work -vopt -sv C:/Users/Maryam/OneDrive/Desktop/singleCycle/tbMEM.sv
+Model Technology ModelSim SE vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module tbtb
+
+Top level modules:
+	tbtb
+
+} {} {}} C:/Users/Maryam/OneDrive/Desktop/singleCycle/regfile.sv {1 {vlog -work work -vopt -sv C:/Users/Maryam/OneDrive/Desktop/singleCycle/regfile.sv
+Model Technology ModelSim SE vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module regFile
+
+Top level modules:
+	regFile
+
+} {} {}} C:/Users/Maryam/OneDrive/Desktop/singleCycle/testbench.sv {1 {vlog -work work -vopt -sv C:/Users/Maryam/OneDrive/Desktop/singleCycle/testbench.sv
+Model Technology ModelSim SE vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module testbench
+
+Top level modules:
+	testbench
+
+} {} {}} C:/Users/Maryam/OneDrive/Desktop/singleCycle/adder.sv {1 {vlog -work work -vopt -sv C:/Users/Maryam/OneDrive/Desktop/singleCycle/adder.sv
+Model Technology ModelSim SE vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module adder
+
+Top level modules:
+	adder
+
+} {} {}} C:/Users/Maryam/OneDrive/Desktop/singleCycle/datamem.sv {1 {vlog -work work -vopt -sv C:/Users/Maryam/OneDrive/Desktop/singleCycle/datamem.sv
+Model Technology ModelSim SE vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module datamem
+
+Top level modules:
+	datamem
+
+} {} {}} C:/Users/Maryam/OneDrive/Desktop/singleCycle/insmem.sv {1 {vlog -work work -vopt -sv C:/Users/Maryam/OneDrive/Desktop/singleCycle/insmem.sv
+Model Technology ModelSim SE vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module insmem
+
+Top level modules:
+	insmem
+
+} {} {}} C:/Users/Maryam/OneDrive/Desktop/singleCycle/mux2to1_32bit.sv {1 {vlog -work work -vopt -sv C:/Users/Maryam/OneDrive/Desktop/singleCycle/mux2to1_32bit.sv
+Model Technology ModelSim SE vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module mux2to1_32bit
+
+Top level modules:
+	mux2to1_32bit
+
+} {} {}} C:/Users/Maryam/OneDrive/Desktop/singleCycle/ps.sv {1 {vlog -work work -vopt -sv C:/Users/Maryam/OneDrive/Desktop/singleCycle/ps.sv
+Model Technology ModelSim SE vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module pc
+
+Top level modules:
+	pc
+
+} {} {}} C:/Users/Maryam/OneDrive/Desktop/singleCycle/mux4to1_32bit.sv {1 {vlog -work work -vopt -sv C:/Users/Maryam/OneDrive/Desktop/singleCycle/mux4to1_32bit.sv
+Model Technology ModelSim SE vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module mux4to1_32bit
+
+Top level modules:
+	mux4to1_32bit
+
+} {} {}} C:/Users/Maryam/OneDrive/Desktop/singleCycle/Datapath.sv {1 {vlog -work work -vopt -sv C:/Users/Maryam/OneDrive/Desktop/singleCycle/Datapath.sv
+Model Technology ModelSim SE vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module Datapath
+
+Top level modules:
+	Datapath
+
+} {} {}}
