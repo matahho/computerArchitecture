@@ -1,0 +1,92 @@
+Sat Jun 10 11:26:00 PM Iran Standard Time 2023
+Trace back: window ".main_pane.wave" isn't a top-level window
+    while executing
+"::tk::wm minsize .main_pane.wave 365 215"
+    ("uplevel" body line 1)
+    invoked from within
+"uplevel 1 [concat [list ::tk::wm $option $window] $args]"
+    ("default" arm line 2)
+    invoked from within
+"switch -- $option {
+			manage {
+				if {$::tk_version eq "8.5"} {
+					uplevel 1 [concat [list ::tk::wm $option $window] $args]
+				} elseif {$::tk_ve..."
+    (procedure "wm" line 19)
+    invoked from within
+"wm minsize  $windowobj 365 215"
+    (procedure "Wave::WaveUnDock" line 5)
+    invoked from within
+"Wave::WaveUnDock .main_pane.wave"
+    ("eval" body line 1)
+    invoked from within
+"eval $itk_option(-undockcommand) $frame_name"
+    (object "::.main_pane.wave" method "::mtiwidgets::WindowObj::_UnDock" body line 65)
+    invoked from within
+"$windowobj _UnDock"
+    (object "::.windowmgr" method "::mtiwidgets::WindowMgr::UnDock" body line 30)
+    invoked from within
+"UnDock $windowobj $geometry $suppress_error"
+    (object "::.windowmgr" method "::mtiwidgets::WindowMgr::ToggleDock" body line 16)
+    invoked from within
+"::.windowmgr ToggleDock .main_pane.wave"
+    (in namespace inscope "::mtiwidgets::WindowMgr" script line 1)
+    invoked from within
+"namespace inscope ::mtiwidgets::WindowMgr {::.windowmgr ToggleDock .main_pane.wave}"
+    invoked from within
+".main_pane.wave.interior.header.btns.expel invoke"
+    ("uplevel" body line 1)
+    invoked from within
+"uplevel #0 [list $w invoke]"
+    (procedure "tk::ButtonUp" line 24)
+    invoked from within
+"tk::ButtonUp .main_pane.wave.interior.header.btns.expel"
+    (command bound to event)
+  <2: ::tkerror {window ".main_pane.wave" isn't a top-level window}
+  <1: ::bgerror {window ".main_pane.wave" isn't a top-level window}
+Sat Jun 10 11:28:37 PM Iran Standard Time 2023
+Trace back: window ".main_pane.wave" isn't a top-level window
+    while executing
+"::tk::wm minsize .main_pane.wave 365 215"
+    ("uplevel" body line 1)
+    invoked from within
+"uplevel 1 [concat [list ::tk::wm $option $window] $args]"
+    ("default" arm line 2)
+    invoked from within
+"switch -- $option {
+			manage {
+				if {$::tk_version eq "8.5"} {
+					uplevel 1 [concat [list ::tk::wm $option $window] $args]
+				} elseif {$::tk_ve..."
+    (procedure "wm" line 19)
+    invoked from within
+"wm minsize  $windowobj 365 215"
+    (procedure "Wave::WaveUnDock" line 5)
+    invoked from within
+"Wave::WaveUnDock .main_pane.wave"
+    ("eval" body line 1)
+    invoked from within
+"eval $itk_option(-undockcommand) $frame_name"
+    (object "::.main_pane.wave" method "::mtiwidgets::WindowObj::_UnDock" body line 65)
+    invoked from within
+"$windowobj _UnDock"
+    (object "::.windowmgr" method "::mtiwidgets::WindowMgr::UnDock" body line 30)
+    invoked from within
+"UnDock $windowobj $geometry $suppress_error"
+    (object "::.windowmgr" method "::mtiwidgets::WindowMgr::ToggleDock" body line 16)
+    invoked from within
+"::.windowmgr ToggleDock .main_pane.wave"
+    (in namespace inscope "::mtiwidgets::WindowMgr" script line 1)
+    invoked from within
+"namespace inscope ::mtiwidgets::WindowMgr {::.windowmgr ToggleDock .main_pane.wave}"
+    invoked from within
+".main_pane.wave.interior.header.btns.expel invoke"
+    ("uplevel" body line 1)
+    invoked from within
+"uplevel #0 [list $w invoke]"
+    (procedure "tk::ButtonUp" line 24)
+    invoked from within
+"tk::ButtonUp .main_pane.wave.interior.header.btns.expel"
+    (command bound to event)
+  <2: ::tkerror {window ".main_pane.wave" isn't a top-level window}
+  <1: ::bgerror {window ".main_pane.wave" isn't a top-level window}

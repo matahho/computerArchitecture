@@ -1,0 +1,148 @@
+C:/Users/Maryam/OneDrive/Desktop/pipline/HazardUnit.sv {1 {vlog -work work -vopt -sv C:/Users/Maryam/OneDrive/Desktop/pipline/HazardUnit.sv
+Model Technology ModelSim SE vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module hazard
+
+Top level modules:
+	hazard
+
+} {} {}} C:/Users/Maryam/OneDrive/Desktop/pipline/ALU.sv {1 {vlog -work work -vopt -sv C:/Users/Maryam/OneDrive/Desktop/pipline/ALU.sv
+Model Technology ModelSim SE vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module alu
+
+Top level modules:
+	alu
+
+} {} {}} C:/Users/Maryam/OneDrive/Desktop/pipline/DataMemory.sv {1 {vlog -work work -vopt -sv C:/Users/Maryam/OneDrive/Desktop/pipline/DataMemory.sv
+Model Technology ModelSim SE vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module dmem
+
+Top level modules:
+	dmem
+
+} {} {}} C:/Users/Maryam/OneDrive/Desktop/pipline/RegF.sv {1 {vlog -work work -vopt -sv C:/Users/Maryam/OneDrive/Desktop/pipline/RegF.sv
+Model Technology ModelSim SE vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module regfile
+
+Top level modules:
+	regfile
+
+} {} {}} C:/Users/Maryam/OneDrive/Desktop/pipline/flopenr.sv {1 {vlog -work work -vopt -sv C:/Users/Maryam/OneDrive/Desktop/pipline/flopenr.sv
+Model Technology ModelSim SE vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module flopenr
+
+Top level modules:
+	flopenr
+
+} {} {}} C:/Users/Maryam/OneDrive/Desktop/pipline/floprc.sv {1 {vlog -work work -vopt -sv C:/Users/Maryam/OneDrive/Desktop/pipline/floprc.sv
+Model Technology ModelSim SE vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module floprc
+
+Top level modules:
+	floprc
+
+} {} {}} C:/Users/Maryam/OneDrive/Desktop/pipline/fourInputMux.sv {1 {vlog -work work -vopt -sv C:/Users/Maryam/OneDrive/Desktop/pipline/fourInputMux.sv
+Model Technology ModelSim SE vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module mux4
+
+Top level modules:
+	mux4
+
+} {} {}} C:/Users/Maryam/OneDrive/Desktop/pipline/Adder.sv {1 {vlog -work work -vopt -sv C:/Users/Maryam/OneDrive/Desktop/pipline/Adder.sv
+Model Technology ModelSim SE vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module adder
+
+Top level modules:
+	adder
+
+} {} {}} C:/Users/Maryam/OneDrive/Desktop/pipline/ALUDecoder.sv {1 {vlog -work work -vopt -sv C:/Users/Maryam/OneDrive/Desktop/pipline/ALUDecoder.sv
+Model Technology ModelSim SE vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module aludec
+
+Top level modules:
+	aludec
+
+} {} {}} C:/Users/Maryam/OneDrive/Desktop/pipline/MainDec.sv {1 {vlog -work work -vopt -sv C:/Users/Maryam/OneDrive/Desktop/pipline/MainDec.sv
+Model Technology ModelSim SE vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module maindec
+
+Top level modules:
+	maindec
+
+} {} {}} C:/Users/Maryam/OneDrive/Desktop/pipline/flopenrc.sv {1 {vlog -work work -vopt -sv C:/Users/Maryam/OneDrive/Desktop/pipline/flopenrc.sv
+Model Technology ModelSim SE vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module flopenrc
+
+Top level modules:
+	flopenrc
+
+} {} {}} C:/Users/Maryam/OneDrive/Desktop/pipline/threeInputMux.sv {1 {vlog -work work -vopt -sv C:/Users/Maryam/OneDrive/Desktop/pipline/threeInputMux.sv
+Model Technology ModelSim SE vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module mux3
+
+Top level modules:
+	mux3
+
+} {} {}} C:/Users/Maryam/OneDrive/Desktop/pipline/TOPLEVEL.sv {1 {vlog -work work -vopt -sv C:/Users/Maryam/OneDrive/Desktop/pipline/TOPLEVEL.sv
+Model Technology ModelSim SE vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module top
+
+Top level modules:
+	top
+
+} {} {}} C:/Users/Maryam/OneDrive/Desktop/pipline/flopr.sv {1 {vlog -work work -vopt -sv C:/Users/Maryam/OneDrive/Desktop/pipline/flopr.sv
+Model Technology ModelSim SE vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module flopr
+
+Top level modules:
+	flopr
+
+} {} {}} C:/Users/Maryam/OneDrive/Desktop/pipline/twoInputMux.sv {1 {vlog -work work -vopt -sv C:/Users/Maryam/OneDrive/Desktop/pipline/twoInputMux.sv
+Model Technology ModelSim SE vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module mux2
+
+Top level modules:
+	mux2
+
+} {} {}} C:/Users/Maryam/OneDrive/Desktop/pipline/controller.sv {1 {vlog -work work -vopt -sv C:/Users/Maryam/OneDrive/Desktop/pipline/controller.sv
+Model Technology ModelSim SE vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module controller
+
+Top level modules:
+	controller
+
+} {} {}} C:/Users/Maryam/OneDrive/Desktop/pipline/DP.sv {1 {vlog -work work -vopt -sv C:/Users/Maryam/OneDrive/Desktop/pipline/DP.sv
+Model Technology ModelSim SE vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module datapath
+
+Top level modules:
+	datapath
+
+} {} {}} C:/Users/Maryam/OneDrive/Desktop/pipline/TB.sv {1 {vlog -work work -vopt -sv {C:\Users\Maryam\OneDrive\Desktop\pipline\TB.sv}
+Model Technology ModelSim SE vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module testbench
+
+Top level modules:
+	testbench
+
+} {} {}} C:/Users/Maryam/OneDrive/Desktop/pipline/ricVThePip.sv {1 {vlog -work work -vopt -sv C:/Users/Maryam/OneDrive/Desktop/pipline/ricVThePip.sv
+Model Technology ModelSim SE vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module riscv
+
+Top level modules:
+	riscv
+
+} {} {}} C:/Users/Maryam/OneDrive/Desktop/pipline/Extender.sv {1 {vlog -work work -vopt -sv C:/Users/Maryam/OneDrive/Desktop/pipline/Extender.sv
+Model Technology ModelSim SE vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module extend
+
+Top level modules:
+	extend
+
+} {} {}} C:/Users/Maryam/OneDrive/Desktop/pipline/imem.sv {1 {vlog -work work -vopt -sv C:/Users/Maryam/OneDrive/Desktop/pipline/imem.sv
+Model Technology ModelSim SE vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module imem
+
+Top level modules:
+	imem
+
+} {} {}}
